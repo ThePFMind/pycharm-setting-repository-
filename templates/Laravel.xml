@@ -1,0 +1,18 @@
+<templateSet group="Laravel">
+  <template name="v::m" value="return View::make();" description="View::make()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="model" value="class $NAME$ extends Eloquent {&#10;    protencted $fillable = [];&#10;    $END$" description="New Eloquent Model" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="r::g" value="Route::get();" description="Route::get()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

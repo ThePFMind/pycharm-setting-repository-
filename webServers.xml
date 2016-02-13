@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="635aae5e-8ed4-4adc-89af-a1f2ba2b34c7" name="franchisestack.server" url="http://franchisestack.app">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
